@@ -7,3 +7,4 @@ class Planet(db.Model):
     description = db.Column(db.String)
     color = db.Column(db.String)
     size = db.Column(db.Integer)
+    satellite = db.Column(db.Boolean)
